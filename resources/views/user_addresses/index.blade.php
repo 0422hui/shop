@@ -6,6 +6,7 @@
     <div class="col-md-10 offset-md-1">
       <div class="card panel-default">
         <div class="card-header">收货地址列表</div>
+        <a href="{{ route('user_addresses.create') }}" class="float-right">新增收货地址</a>
         <div class="card-body">
           <table class="table table-bordered table-striped">
             <thead>
