@@ -6,12 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductSku extends Model
 {
-    protected $fillable=[
-        'title', 'description', 'price', 'stock'
-    ];
+    protected $fillable = ['title', 'description', 'price', 'stock'];
 
     public function product()
     {
-        return $this->belongTo(Product::class);
+        return $this->belongsTo(Product::class);
     }
 }
