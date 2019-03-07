@@ -50,7 +50,7 @@
       <!-- 订单发货开始 -->
       <!-- 如果订单未发货，展示发货表单 -->
 
-      @if($order->ship_status === \App\Models\Order::SHIP_STATUS_PENDING)
+      {{-- @if($order->ship_status === \App\Models\Order::SHIP_STATUS_PENDING) --}}
       @if($order->refund_status !== \App\Models\Order::REFUND_STATUS_SUCCESS &&
           ($order->type !== \App\Models\Order::TYPE_CROWDFUNDING ||
             $order->items[0]->product->crowdfunding->status === \App\Models\CrowdfundingProduct::STATUS_SUCCESS))
@@ -67,7 +67,8 @@
                   <span class="help-block">{{ $msg }}</span>
                 @endforeach
               @endif
-              @else
+
+              {{-- @else --}}
             </div>
             <div class="form-group {{ $errors->has('express_no') ? 'has-error' : '' }}">
               <label for="express_no" class="control-label">物流单号</label>
@@ -82,6 +83,7 @@
           </form>
         </td>
       </tr>
+
       @else
       <!-- 否则展示物流公司和物流单号 -->
       <tr>
@@ -90,7 +92,7 @@
         <td>物流单号：</td>
         <td>{{ $order->ship_data['express_no'] }}</td>
       </tr>
-      @endif
+    @endif
       <!-- 订单发货结束 -->
 
       @if($order->refund_status !== \App\Models\Order::REFUND_STATUS_PENDING)
