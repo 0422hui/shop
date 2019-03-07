@@ -142,6 +142,7 @@ class OrdersController extends Controller
                     'out_trade_no' => $order->no, // 之前的订单流水号
                     'refund_amount' => $order->total_amount, // 退款金额，单位元
                     'out_request_no' => $refundNo, // 退款订单号
+                    'notify_url' => ngrok_url('payment.wechat.refund_notify'),
                 ]);
                 // 根据支付宝的文档，如果返回值里有 sub_code 字段说明退款失败
                 if ($ret->sub_code) {
