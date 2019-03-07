@@ -51,6 +51,9 @@
       <!-- 如果订单未发货，展示发货表单 -->
 
       @if($order->ship_status === \App\Models\Order::SHIP_STATUS_PENDING)
+      @if($order->refund_status !== \App\Models\Order::REFUND_STATUS_SUCCESS &&
+          ($order->type !== \App\Models\Order::TYPE_CROWDFUNDING ||
+            $order->items[0]->product->crowdfunding->status === \App\Models\CrowdfundingProduct::STATUS_SUCCESS))
       <tr>
         <td colspan="4">
           <form action="{{ route('admin.orders.ship', [$order->id]) }}" method="post" class="form-inline">
@@ -64,6 +67,7 @@
                   <span class="help-block">{{ $msg }}</span>
                 @endforeach
               @endif
+              @else
             </div>
             <div class="form-group {{ $errors->has('express_no') ? 'has-error' : '' }}">
               <label for="express_no" class="control-label">物流单号</label>
