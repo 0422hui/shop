@@ -65,4 +65,5 @@ class Installment extends Model
 
         return false;
     }
+
 }
