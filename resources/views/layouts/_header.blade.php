@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
     <div class="container">
       <!-- Branding Image -->
-      <a class="navbar-brand " href="{{ url('/') }}">
-        Laravel Shop
+      <a class="navbar-brand logo" href="{{ url('/') }}" >
+        <img class="rounded img-lg w-50" src="{{URL::asset('/images/logo1.png')}}" alt=>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
                 {{ Auth::user()->name }}
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a href="{{ route('products.favorites') }}" class="dropdown-item">我的收藏</a>
+                    <a href="{{ route('products.favorites') }}" class="dropdown-item aa">我的收藏</a>
                     <a href="{{ route('user_addresses.index') }}" class="dropdown-item">收货地址</a>
                     <a href="{{ route('orders.index') }}" class="dropdown-item">我的订单</a>
                     <a href="{{ route('installments.index') }}" class="dropdown-item">分期付款</a>
@@ -60,3 +60,5 @@
       </div>
     </div>
   </nav>
+
+

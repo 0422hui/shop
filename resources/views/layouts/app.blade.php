@@ -21,5 +21,17 @@
     <!-- JS 脚本 -->
     <script src="{{ mix('js/app.js') }}"></script>
     @yield('scriptsAfterJs')
+    <script>
+            $(".dropdown-menu>a").mouseenter(function(){
+                $(this).stop().animate({
+                    marginLeft:'5px'
+                },100);
+            }).mouseleave(function(){
+                $(this).stop().animate({
+                    marginLeft:'-5px'
+                },100);
+            })
+            ;
+    </script>
 </body>
 </html>

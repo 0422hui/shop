@@ -1,0 +1,255 @@
+[33mcommit 458cabcb4dc0409e6177ab0e36b14f25efeecc00[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 13:26:53 2019 +0800
+
+    申请退款
+
+[33mcommit baa0b6dffa922c1ff3c6a58ddbbe8602b341a29f[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 10:46:01 2019 +0800
+
+    评价商品
+
+[33mcommit 3630cbb06d4a495f00797c272347cd65bd0caeb7[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 10:24:56 2019 +0800
+
+    确认收货
+
+[33mcommit 8b06ceaef5657b0b5b3c0305a9e7b16c03338930[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 10:01:11 2019 +0800
+
+    管理后台 - 订单发货
+
+[33mcommit 5888f3a959500228801351cbfdfa1b36dd760da4[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 09:55:58 2019 +0800
+
+    后台查看订单“
+
+[33mcommit 2ac40fb152bcd649f4e6b07e23db57e6c429be13[m
+Author: 839574938 <47733480+839574938@users.noreply.github.com>
+Date:   Thu Mar 7 09:45:27 2019 +0800
+
+    管理后台，订单列表
+
+[33mcommit ecb4f1119e5128f30e6cd3c58bb8731c57d64fcf[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 10:54:28 2019 +0000
+
+    完善支付后逻辑
+
+[33mcommit 4e8fe880313564e2b2083bb151a90ec951d7cd3d[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 09:22:02 2019 +0000
+
+    订单支付
+
+[33mcommit 05008fd72fd5ddcbaa32bf7fdf18fefcb76e043f[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 08:17:28 2019 +0000
+
+    集成支付宝
+
+[33mcommit 295a58abd4c25726adc3c9d94f350f7667d359ae[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 07:36:55 2019 +0000
+
+    引入支付库
+
+[33mcommit 68af11cf37534f56eb32ac69da7c550e8cae1b49[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 07:16:43 2019 +0000
+
+    封装业务代码
+
+[33mcommit 06c47a404b639c03d91cf1af6986f5118dd76ba5[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 06:42:12 2019 +0000
+
+    用户订单
+
+[33mcommit 907bfa46b2f42d35205324bc708f2267388f1c7b[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 06:26:11 2019 +0000
+
+    关闭未支付订单
+
+[33mcommit b01686cdf7b3eae2941ca85ee2227525b8de36e5[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 06:00:21 2019 +0000
+
+    创建订单
+
+[33mcommit f338f450c7863fcaba890bb591cd6bf68280e9f8[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 05:37:08 2019 +0000
+
+    订单模型
+
+[33mcommit 54ef0c2b6ae625df78380425341efa3f8bd2b53e[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 05:30:16 2019 +0000
+
+    购物车页面
+
+[33mcommit 98bdcedb05713e8a719347f1149d354cab4620da[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 03:05:20 2019 +0000
+
+    商品加入购物车
+
+[33mcommit c4ad4bc2599d9f7a7819c128a5e45abb699e2284[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 01:55:35 2019 +0000
+
+    用户界面 - 收藏商品列表
+
+[33mcommit b6c6eac3791cab296d263c8609f6afe412abc874[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 01:44:56 2019 +0000
+
+    用户界面 - 商品收藏
+
+[33mcommit 6e63c4222730a92fadcb71c4d0ef195c0e2ec118[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 01:17:38 2019 +0000
+
+    异常处理
+
+[33mcommit e77215152d03e387ad0b3f748389215d107ba1e9[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 01:04:53 2019 +0000
+
+    用户界面 - 商品详情页
+
+[33mcommit 5b5f4262616508b8b5849eca94bd2fd781f584a0[m
+Author: cyc <839574938@qq.com>
+Date:   Wed Mar 6 00:47:18 2019 +0000
+
+    用户界面排序筛选
+
+[33mcommit d79f4f6d48496c4ef00b2b9d108d59026d873f91[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 11:03:41 2019 +0000
+
+    用户界面 - 商品列表
+
+[33mcommit 10420cd4128e9deec4f4c0e1ac94a01b769c75a9[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 08:49:28 2019 +0000
+
+    管理后台 - 新增、编辑商品
+
+[33mcommit 6e9af7e50831a1b240acb08c9fb60577eac59ec9[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 08:07:33 2019 +0000
+
+    管理后台 - 商品列表
+
+[33mcommit b871a00ab3306973c9ecb2e9a8c74baa79b931e8[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 07:29:40 2019 +0000
+
+    管理后台 - 用户列表
+
+[33mcommit 9f75a39bb9323d5ab0e3387d4fe8fcd4380e7e32[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 07:12:33 2019 +0000
+
+    初始化后台
+
+[33mcommit 8c7a3c56e999808b8a243202dd3494c65cce2421[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 06:29:06 2019 +0000
+
+    修改和删除收获地址
+
+[33mcommit b1e913aeda9e9a90e38a25bba45dd442da4b0c3f[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 05:57:19 2019 +0000
+
+    新增地址
+
+[33mcommit 2fbd1bd9cfbcbfcbb8e2ecb903c79b6ccbdd39ef[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 04:55:05 2019 +0000
+
+    收获地址列表
+
+[33mcommit 379d6ddbff5cddb407fa6083fb0fab9947019843[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 04:34:59 2019 +0000
+
+    邮箱验证功能
+
+[33mcommit c31f10f2f500e2e8c6eb9583920d5788894b5750[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 04:18:33 2019 +0000
+
+    注册与登录
+
+[33mcommit 101ca0f9005b070aa6b565f522dd88118a17362b[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 02:22:30 2019 +0000
+
+    辅助函数
+
+[33mcommit 7d392b4f169d60c7b40587ff951eabbd5a7f8849[m
+Author: cyc <839574938@qq.com>
+Date:   Tue Mar 5 01:58:21 2019 +0000
+
+    提交星系
+
+[33mcommit ac09b42e39b9a43b46f190c9400f5f043e670a15[m
+Merge: 25b0e81 6547d34
+Author: a1783522936 <47914322+a1783522936@users.noreply.github.com>
+Date:   Mon Mar 4 15:03:51 2019 +0800
+
+    Merge pull request #1 from 839574938/jbb
+    
+    Jbb
+
+[33mcommit 6547d3441b1bec6c85e2800587b66a521c55302d[m
+Merge: 0709a0f 25b0e81
+Author: a1783522936 <47914322+a1783522936@users.noreply.github.com>
+Date:   Mon Mar 4 15:03:34 2019 +0800
+
+    Merge branch 'master' into jbb
+
+[33mcommit 0709a0fc11da1b7ae9d42cd226a0180fe26dd29c[m
+Author: jbb <1783522936@qq.com>
+Date:   Mon Mar 4 06:18:32 2019 +0000
+
+    初始化管理后台
+
+[33mcommit eb9615449ddaf129411664f98f62573a4d6fad5d[m
+Author: jbb <1783522936@qq.com>
+Date:   Mon Mar 4 05:33:57 2019 +0000
+
+    管理后台-商品列表
+
+[33mcommit 840379b37798fcba0e36d43ffcfec0a13ea8c980[m
+Author: jbb <1783522936@qq.com>
+Date:   Mon Mar 4 05:28:19 2019 +0000
+
+    商品模型
+
+[33mcommit 25b0e81937570d2a38e0f4be11aa670614e3b5a1[m
+Author: cyc <839574938@qq.com>
+Date:   Mon Mar 4 03:14:27 2019 +0000
+
+    muban
+
+[33mcommit 7e43568d4caf994b47628453d213ef4fdc20579b[m
+Author: cyc <839574938@qq.com>
+Date:   Mon Mar 4 02:59:25 2019 +0000
+
+    muban
+
+[33mcommit f9d712d0722ca718b9a695d88cbe1f4a9331d735[m
+Author: wjw <1219310542@qq.com>
+Date:   Mon Mar 4 01:39:37 2019 +0000
+
+    初始化应用

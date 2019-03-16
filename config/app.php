@@ -108,6 +108,7 @@ return [
 
     'faker_locale' => 'zh_CN',
     'order_ttl' => 1800,
+    'seckill_order_ttl' => 600,
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
